@@ -128,6 +128,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="CodeforcesContests.cpp" />
+    <ClCompile Include="Codeforces_Round_827.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Codeforces_Round_827.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
