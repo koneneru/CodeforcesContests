@@ -24,6 +24,28 @@ void Codeforces_Round_827::A()
 
 void Codeforces_Round_827::B()
 {
+	int loop;
+	cin >> loop;
+	while (loop--) {
+		int n;
+		cin >> n;
+		map<int, bool> a;
+		bool ans = true;
+		while (n--) {
+			int i;
+			cin >> i;
+			if (ans) {
+				if (a[i]) {
+					ans = false;
+				}
+				else a[i] = true;
+			}
+		}
+
+		cout << (ans ? "YES" : "NO") << endl;
+	}
+
+	return;
 }
 
 void Codeforces_Round_827::C()
