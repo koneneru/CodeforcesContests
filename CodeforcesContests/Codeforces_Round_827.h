@@ -1,6 +1,7 @@
 #pragma once
 class Codeforces_Round_827
 {
+public:
 	static void A();
 	static void B();
 	static void C();
